@@ -1,0 +1,62 @@
+GIT commands
+
+Create a folder -> go inside the folder -> right click -> open git bash 
+
+1) git init   (initialize git) (starting the git)
+
+2) git config --global user.name "Akshat"    (This will set author username as Akshat)
+
+3) git config --global user.email "akshu20791@gmail.com"   (this will set email as akshu20791@gmail.com in git)
+
+4) git config --list   (this will list all the configurations of git)
+
+5) git status        (status of your working directory) 
+
+6) touch file1    (this will create a blank file in my folder)
+
+7) touch file2 file3   (this will create file2 and file3 (blank) in my folder) 
+
+8) git status    (you will see that file1 , file2 and file3 are unstaged) 
+
+9) git add .     (this will add all the files from your working directory to the staging area) (to include specific files use git add <<filename>>) 
+
+10) git rm --cached file3   (this will remove the file from staging and put it back to the working directory) 
+
+11) git status    (you will see that file1, file2 is there in staging area (green color) whereas file3 is in red color which means it is in working directory (not tracked)  )
+
+12) git commit -m"files are created and now commited"   (put the files in the staging area into the local repository)
+
+13) git log --oneline    (shows the commits in a single line)
+
+14) git log    (detailled view of commits) 
+
+15) make some changes in file1 (add some content )
+
+16) git status     (you will see that it is able to track that there is some changes in file1- file1 is modified)
+
+17) git add file1 (this will put your file1 into the staging area) 
+
+18) git commit -m "second commit"    (this will put your file into the local repo) 
+
+19) git log --oneline (you will see that head is moved to the second commit) 
+
+20) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
